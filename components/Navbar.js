@@ -44,7 +44,7 @@ export default function Header() {
 			bg={"white"}
 			spacing={3}
 			rounded="sm"
-			shadow="sm"
+			// shadow="sm"
 			zIndex={99}
 		>
 			<CloseButton
@@ -85,7 +85,7 @@ export default function Header() {
 				w="full"
 				color="white"
 				variant="ghost"
-				bg={"#020bff"}
+				bg={"#f56713"}
 				onClick={mobileNav.onClose}
 			>
 				Buy On Pancake
@@ -96,7 +96,7 @@ export default function Header() {
 	return (
 		<React.Fragment>
 			<chakra.header
-				shadow="sm"
+				shadow={scrollNav ? "md" : "none"}
 				bg={scrollNav ? "white" : "transparent"}
 				w="full"
 				overflowY="hidden"

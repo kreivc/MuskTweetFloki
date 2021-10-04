@@ -15,10 +15,10 @@ export default function Why() {
 	}, []);
 
 	return (
-		<Box h="100vh" p={{ base: "10", md: "20" }}>
+		<Box h="50vh" p={{ base: "10", md: "20" }}>
 			<VStack px={{ base: "0", md: "44" }}>
 				<Text color="#f56713" fontWeight="semibold" fontSize="lg">
-					Why Forada
+					Why MuskTweetFloki
 				</Text>
 				<Text
 					color="#2b3954"
@@ -33,7 +33,7 @@ export default function Why() {
 					money that will be received in the marketing wallet for post launch
 					investments.
 				</Text>
-				<Box ref={container} w="300px"></Box>
+				{/* <Box ref={container} w="300px"></Box> */}
 			</VStack>
 		</Box>
 	);

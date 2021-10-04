@@ -8,7 +8,7 @@ import { useEffect } from "react";
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
 		AOS.init({
-			offset: 100,
+			// offset: 100,
 			duration: 1000,
 			easing: "ease",
 		});

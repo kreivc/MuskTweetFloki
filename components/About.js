@@ -39,7 +39,7 @@ export default function SplitScreen() {
 					flex={1}
 					align={"center"}
 					justify={"center"}
-					data-aos="zoom-in-left"
+					// data-aos="zoom-in-left"
 				>
 					<Stack spacing={5} w={"full"} maxW={"lg"}>
 						<Text color="#f56713" fontWeight="semibold" fontSize="xl">
@@ -49,11 +49,11 @@ export default function SplitScreen() {
 							<Text color="#2b3954">A new DeFi experience</Text>
 						</Heading>
 						<Text fontSize={{ base: "md", lg: "lg" }} color={"#516172"}>
-							Forada is a community based token, which means the development of
-							the project is done by its community members. The tokenomics
-							utility model is to be used for paying for goods and services. It
-							is also intended to be used as a reward to the users of the
-							platform.
+							MuskTweetFloki is a community based token, which means the
+							development of the project is done by its community members. The
+							tokenomics utility model is to be used for paying for goods and
+							services. It is also intended to be used as a reward to the users
+							of the platform.
 						</Text>
 						<Stack direction={{ base: "column", md: "row" }} spacing={4}>
 							<Button
