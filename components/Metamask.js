@@ -8,12 +8,18 @@ export default function Metamask() {
 		<>
 			<Button
 				disabled={true}
-				rounded={"lg"}
-				bg="#f56713"
 				color={"white"}
 				_hover={{
-					bg: "#faae60",
+					bg: "transparent",
+					outlineColor: "white",
 				}}
+				bg="white"
+				rounded="lg"
+				h="70px"
+				w="70px"
+				d="flex"
+				alignItems="center"
+				justifyContent="center"
 				onClick={async () => {
 					const provider = window.web3.currentProvider;
 					provider.sendAsync(
@@ -23,7 +29,7 @@ export default function Metamask() {
 								type: "ERC20",
 								options: {
 									address: "0x301dfc30734c583d0049b0773e3edce94416690f",
-									symbol: "Adaconda",
+									symbol: "MuskTweetFloki",
 									decimals: 4,
 									image: "https://i.ibb.co/twGcK9L/Anaconda-flipped.png",
 								},
@@ -33,10 +39,6 @@ export default function Metamask() {
 						(err, added) => {
 							console.log("provider returned", err, added);
 							if (err || "error" in added) {
-								this.setState({
-									errorMessage: "There was a problem adding the token.",
-									message: "",
-								});
 								return;
 							}
 							console.log("token added");
@@ -44,8 +46,7 @@ export default function Metamask() {
 					);
 				}}
 			>
-				<Image src={Mtm} alt="" width="20px" height="20px" /> &nbsp; Add to
-				Metamask
+				<Image src={Mtm} alt="" width="35px" height="35px" />
 			</Button>
 		</>
 	);

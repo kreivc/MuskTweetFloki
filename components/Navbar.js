@@ -88,7 +88,7 @@ export default function Header() {
 				bg={"#f56713"}
 				onClick={mobileNav.onClose}
 			>
-				Buy On Pancake
+				Buy Now
 			</Button>
 		</VStack>
 	);
@@ -226,16 +226,18 @@ export default function Header() {
 									as="a"
 									href="https://pancakeswap.finance/"
 									target="_blank"
-									rounded="full"
+									rounded="2xl"
 									variant="solid"
-									fontSize="medium"
+									fontSize="xl"
 									color={scrollNav ? "white" : "#f56713"}
 									bg={scrollNav ? "#f56713" : "gray.100"}
 									_hover={{
 										bg: scrollNav ? "#f56713" : "gray.200",
 									}}
+									px="7"
+									py="6"
 								>
-									Buy On Pancake
+									Buy Now
 								</Button>
 							</HStack>
 							<IconButton

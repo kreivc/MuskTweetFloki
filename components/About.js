@@ -69,7 +69,6 @@ export default function SplitScreen() {
 							>
 								Join Telegram
 							</Button>
-							<Metamask />
 						</Stack>
 					</Stack>
 				</Flex>
