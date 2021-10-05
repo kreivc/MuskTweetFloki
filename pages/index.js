@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
 import Why from "../components/Why";
 import About from "../components/About";
+import Roadmap from "../components/Roadmap";
 
 export default function Home() {
 	return (
@@ -17,9 +18,9 @@ export default function Home() {
 			</Head>
 			{/* <Hero /> */}
 			<Hero2 />
-
 			<Why />
 			<About />
+			<Roadmap />
 		</div>
 	);
 }
