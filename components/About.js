@@ -4,12 +4,11 @@ import {
 	Heading,
 	Stack,
 	Text,
-	useBreakpointValue,
 	Box,
+	Image,
 } from "@chakra-ui/react";
-import Image from "next/image";
+// import Image from "next/image";
 // import AboutPic from "../assets/Adaconda.png";
-import Metamask from "../components/Metamask";
 import { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
@@ -21,7 +20,7 @@ export default function SplitScreen() {
 			renderer: "svg",
 			loop: true,
 			autoplay: true,
-			animationData: require("../assets/fletter.json"),
+			animationData: require("../assets/flokiani.json"),
 		});
 	}, []);
 
@@ -33,6 +32,7 @@ export default function SplitScreen() {
 				minH={"100vh"}
 				direction={{ base: "column", md: "row" }}
 				bg="#f6f9fc"
+				pos="relative"
 			>
 				<Flex
 					p={8}
@@ -72,15 +72,23 @@ export default function SplitScreen() {
 						</Stack>
 					</Stack>
 				</Flex>
-				<Flex flex={1} data-aos="slide-right">
+				<Flex flex={1}>
 					<Box
 						w={{ base: "300px", lg: "500px" }}
 						h={{ base: "300px", lg: "500px" }}
 						d="flex"
 						alignItems="center"
 					>
+						{/* <Box
+							rounded="full"
+							p={{ base: "10", md: "16" }}
+							bg="white"
+							textAlign="center"
+						>
+							<Image src="/floki.png" alt="flokiright" rounded="full" />
+						</Box> */}
 						{/* <Image alt={"Login Image"} objectFit={"cover"} src={AboutPic} /> */}
-						{/* <Box ref={container} w={{ base: "400px", md: "500px" }} /> */}
+						<Box ref={container} w={{ base: "400px", md: "500px" }} />
 					</Box>
 				</Flex>
 			</Stack>
