@@ -16,7 +16,7 @@ export default function Why() {
 
 	return (
 		<Box h="50vh" p={{ base: "10", md: "20" }}>
-			<VStack px={{ base: "0", md: "44" }}>
+			<VStack px={{ base: "0", md: "20" }}>
 				<Text color="#f56713" fontWeight="semibold" fontSize="lg">
 					Why MuskTweetFloki
 				</Text>

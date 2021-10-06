@@ -7,6 +7,7 @@ import Hero2 from "../components/Hero2";
 import Why from "../components/Why";
 import About from "../components/About";
 import Roadmap from "../components/Roadmap";
+import More from "../components/More";
 
 export default function Home() {
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 			<Why />
 			<About />
 			<Roadmap />
+			<More />
 		</div>
 	);
 }
