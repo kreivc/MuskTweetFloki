@@ -6,7 +6,7 @@ import Roadmap from "../components/Roadmap";
 import Proof from "../components/Proof";
 import HowToBuy from "../components/HowToBuy";
 import Footer from "../components/Footer";
-import { Square, Button } from "@chakra-ui/react";
+import { Box, Button } from "@chakra-ui/react";
 import { IoChevronUp } from "react-icons/io5";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 	};
 
 	return (
-		<>
+		<div>
 			<Head>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -78,13 +78,7 @@ export default function Home() {
 			<HowToBuy />
 			<Footer />
 
-			<Square
-				pos="fixed"
-				bottom={5}
-				right={5}
-				onClick={scrollTop}
-				opacity="0.8"
-			>
+			<Box pos="fixed" bottom={5} right={5} onClick={scrollTop} opacity="0.8">
 				<Button
 					p={{ base: "5", md: "7" }}
 					fontSize={{ base: "2xl", md: "4xl" }}
@@ -94,7 +88,7 @@ export default function Home() {
 				>
 					<IoChevronUp />
 				</Button>
-			</Square>
-		</>
+			</Box>
+		</div>
 	);
 }
