@@ -11,8 +11,6 @@ import {
 	StatLabel,
 	StatNumber,
 } from "@chakra-ui/react";
-// import Image from "next/image";
-// import AboutPic from "../assets/Adaconda.png";
 import { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 import { IoWalletSharp } from "react-icons/io5";
@@ -40,7 +38,7 @@ export default function SplitScreen() {
 				py={"5"}
 				shadow={"xl"}
 				border={"1px solid"}
-				borderColor={"gray.800"}
+				borderColor={"#2b3954"}
 				rounded={"lg"}
 			>
 				<Flex
@@ -62,7 +60,7 @@ export default function SplitScreen() {
 							{stat}
 						</StatNumber>
 					</Box>
-					<Box my={"auto"} color={"gray.800"} alignContent={"center"}>
+					<Box my={"auto"} color={"#2b3954"} alignContent={"center"}>
 						{icon}
 					</Box>
 				</Flex>
@@ -128,15 +126,7 @@ export default function SplitScreen() {
 						d="flex"
 						alignItems="center"
 					>
-						{/* <Box
-							rounded="full"
-							p={{ base: "10", md: "16" }}
-							bg="white"
-							textAlign="center"
-						>
-							<Image src="/floki.png" alt="flokiright" rounded="full" />
-						</Box> */}
-						{/* <Image alt={"Login Image"} objectFit={"cover"} src={AboutPic} /> */}
+						{/* <Image src="/Face.png" alt="flokiright" rounded="full" /> */}
 						<Box ref={container} w={{ base: "400px", md: "500px" }} />
 					</Box>
 				</Flex>

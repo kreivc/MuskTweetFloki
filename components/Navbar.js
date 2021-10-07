@@ -30,6 +30,10 @@ export default function Header() {
 		window.addEventListener("scroll", changeNav);
 	}, []);
 
+	const scrollTop = () => {
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
+
 	const MobileNavContent = (
 		<VStack
 			pos="fixed"
@@ -57,20 +61,14 @@ export default function Header() {
 					About
 				</Button>
 			</Link>
-			<Link
-				to="tokenomics"
-				smooth={true}
-				duration={500}
-				spy={true}
-				exact="true"
-			>
+			<Link to="roadmap" smooth={true} duration={500} spy={true} exact="true">
 				<Button w="full" variant="ghost" onClick={mobileNav.onClose}>
-					Tokenomics
+					Roadmap
 				</Button>
 			</Link>
-			<Link to="timeline" smooth={true} duration={500} spy={true} exact="true">
+			<Link to="proof" smooth={true} duration={500} spy={true} exact="true">
 				<Button w="full" variant="ghost" onClick={mobileNav.onClose}>
-					Timeline
+					Proof
 				</Button>
 			</Link>
 			<Link to="howtobuy" smooth={true} duration={500} spy={true} exact="true">
@@ -114,18 +112,12 @@ export default function Header() {
 					>
 						<Flex align="flex-start">
 							<Link to="/" smooth={true} duration={500} spy={true} exact="true">
-								<HStack>
-									{/* <Image
-										src={scrollNav ? "/flet.png" : "/flet2.png"}
-										alt={scrollNav ? "logoForada" : "logoForada2"}
-										width="140"
-										height="50"
-										objectFit="cover"
-									/> */}
+								<HStack as="button" onClick={scrollTop}>
+									<Image src="/Face.png" alt="flokiright" h="50px" />
 									<Text
 										fontSize="lg"
 										fontWeight="bold"
-										color={scrollNav ? "black" : "white"}
+										color={scrollNav ? "#693a32" : "white"}
 									>
 										MuskTweetFloki
 									</Text>
@@ -156,7 +148,7 @@ export default function Header() {
 									</Button>
 								</Link>
 								<Link
-									to="tokenomics"
+									to="roadmap"
 									smooth={true}
 									duration={500}
 									spy={true}
@@ -173,11 +165,11 @@ export default function Header() {
 											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
 										}
 									>
-										Tokenomics
+										Roadmap
 									</Button>
 								</Link>
 								<Link
-									to="timeline"
+									to="proof"
 									smooth={true}
 									duration={500}
 									spy={true}
@@ -194,7 +186,7 @@ export default function Header() {
 											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
 										}
 									>
-										Timeline
+										Proof
 									</Button>
 								</Link>
 								<Link
@@ -248,6 +240,8 @@ export default function Header() {
 								variant="ghost"
 								icon={<AiOutlineMenu />}
 								onClick={mobileNav.onOpen}
+								_active={{ outline: "none" }}
+								_focus={{ outline: "none" }}
 							/>
 						</Flex>
 					</Flex>
