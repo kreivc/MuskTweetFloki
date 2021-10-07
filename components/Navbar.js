@@ -141,7 +141,7 @@ export default function Header() {
 										variant="ghost"
 										_focus={{ boxShadow: "none" }}
 										_hover={
-											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
+											scrollNav ? { bg: "#f6f9fc" } : { bg: "transparent" }
 										}
 									>
 										About
@@ -162,7 +162,7 @@ export default function Header() {
 										variant="ghost"
 										_focus={{ boxShadow: "none" }}
 										_hover={
-											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
+											scrollNav ? { bg: "#f6f9fc" } : { bg: "transparent" }
 										}
 									>
 										Roadmap
@@ -183,7 +183,7 @@ export default function Header() {
 										variant="ghost"
 										_focus={{ boxShadow: "none" }}
 										_hover={
-											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
+											scrollNav ? { bg: "#f6f9fc" } : { bg: "transparent" }
 										}
 									>
 										Proof
@@ -204,7 +204,7 @@ export default function Header() {
 										variant="ghost"
 										_focus={{ boxShadow: "none" }}
 										_hover={
-											scrollNav ? { bg: "gray.100" } : { bg: "transparent" }
+											scrollNav ? { bg: "#f6f9fc" } : { bg: "transparent" }
 										}
 									>
 										How to buy
