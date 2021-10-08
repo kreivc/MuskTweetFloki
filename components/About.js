@@ -89,7 +89,7 @@ export default function SplitScreen() {
 					justify={"center"}
 					data-aos="zoom-in-left"
 				>
-					<Stack spacing={5} w={"full"} maxW={"lg"}>
+					<Stack spacing={4} w={"full"} maxW={"lg"}>
 						<Text color="#f56713" fontWeight="semibold" fontSize="xl">
 							MuskTweetFloki
 						</Text>

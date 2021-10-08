@@ -26,11 +26,12 @@ export default function Home() {
 				<meta name="title" content="MuskTweetFloki" />
 				<meta
 					name="description"
-					content="MuskTweetFloki is a community based token, which means the development
-							of the project is done by its community members. The tokenomics
-							utility model is to be used for paying for goods and services. It
-							is also intended to be used as a reward to the users of the
-							platform."
+					content="MuskTweetFloki which operates on Binance Smart Chain is the
+								latest cryptocurrency that&#39;s a descendant of meme father
+								DogeCoin. A new crypto birthed by fans & members of the Doge
+								Coin online community. MuskTweetFloki its a community-owned
+								crypto inspired by Elon Musk! With the power of a community, we
+								aims to be a to 50 crypto project in 2021. Everyone love floki !"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}

@@ -100,11 +100,11 @@ export default function Footer() {
 					fontSize="xl"
 				>
 					<Text>
-						Copyright © 2021 MuskTweetFloki. All Rights Reserved - Privacy
-						Policy - Terms & Conditions MuskTweetFloki is not an investment and
-						created as a meme parody like doge. MuskTweetFloki makes no promises
-						and is not responsible for any losses or errors use at your own
-						risk. MuskTweetFloki is not affiliated with DogeCoin.
+						Copyright © 2021 MuskTweetFloki. All Rights Reserved, MuskTweetFloki
+						is not an investment and created as a meme parody like doge.
+						MuskTweetFloki makes no promises and is not responsible for any
+						losses or errors use at your own risk. MuskTweetFloki is not
+						affiliated with DogeCoin.
 					</Text>
 				</Box>
 			</Flex>

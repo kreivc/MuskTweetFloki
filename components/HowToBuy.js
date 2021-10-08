@@ -27,7 +27,7 @@ export default function HowToBuy() {
 						<Heading color="#f56713" fontSize="6xl" fontWeight="extrabold">
 							How to buy?
 						</Heading>
-						<Text color={"gray.500"} fontSize={"lg"}>
+						<Text color={"#516172"} fontSize={"lg"}>
 							Dont forget to connect your wallet to Pancakeswap, then copy
 							Adaconda address on the landing page above and swap. Just hold and
 							enjoy a huge cumulative gain.

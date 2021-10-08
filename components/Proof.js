@@ -23,19 +23,19 @@ export default function Proof() {
 						align={"center"}
 						justify={"center"}
 					>
-						<Stack spacing={5} w={"full"} maxW={"lg"} data-aos="zoom-in-right">
-							<Text color="#f56713" fontWeight="semibold" fontSize="xl">
+						<Stack spacing={3} w={"full"} maxW={"lg"} data-aos="zoom-in-right">
+							<Text color="#f56713" fontWeight="semibold" fontSize="3xl">
 								Even Father Tweet Us
 							</Text>
 							<Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
 								<Text color="#2b3954">MuskTweetFloki has arrived</Text>
 							</Heading>
-							<Text fontSize={{ base: "md", lg: "lg" }} color={"#516172"}>
+							{/* <Text fontSize={{ base: "md", lg: "lg" }} color={"#516172"}>
 								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
 								reprehenderit at magnam, quas perferendis voluptas dignissimos
 								ea distinctio adipisci, qui quibusdam atque ipsum recusandae
 								doloremque delectus animi mollitia necessitatibus illo?
-							</Text>
+							</Text> */}
 						</Stack>
 					</Flex>
 					<Flex flex={1}>

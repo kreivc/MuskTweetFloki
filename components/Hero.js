@@ -61,14 +61,12 @@ export default function Hero() {
 								data-aos="fade-up"
 								data-aos-delay="50"
 							>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Laboriosam aspernatur nihil quasi accusamus quo labore possimus
-								ducimus repellat facilis rem. Ea ex provident, fugiat aliquid
-								necessitatibus hic obcaecati amet maxime soluta, nisi aliquam
-								qui assumenda. Voluptatibus quia exercitationem sunt iusto
-								error, distinctio ad culpa cum earum dicta vero assumenda,
-								reiciendis incidunt! Cumque sed minus beatae sapiente impedit
-								blanditiis repellendus, rerum sequi eius, nemo et consequuntur
+								MuskTweetFloki which operates on Binance Smart Chain is the
+								latest cryptocurrency that&#39;s a descendant of meme father
+								DogeCoin. A new crypto birthed by fans & members of the Doge
+								Coin online community. MuskTweetFloki its a community-owned
+								crypto inspired by Elon Musk! With the power of a community, we
+								aims to be a to 50 crypto project in 2021. Everyone love floki !
 							</Text>
 							<Button
 								as="a"
