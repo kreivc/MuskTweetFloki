@@ -44,6 +44,7 @@ export default function Roadmap() {
 					fontWeight="bold"
 					fontSize="3xl"
 					color="#f56713"
+					data-aos="zoom-out-down"
 				>
 					Roadmap Board (note: check mean completed)
 				</Text>
@@ -63,6 +64,7 @@ export default function Roadmap() {
 							_active={{ color: "white", bg: "#f56713" }}
 							_focus={{ outline: "none" }}
 							shadow="md"
+							data-aos="fade-in-up"
 						>
 							Phase1
 						</Button>
@@ -91,6 +93,7 @@ export default function Roadmap() {
 							_active={{ color: "white", bg: "#f56713" }}
 							_focus={{ outline: "none" }}
 							shadow="md"
+							data-aos="fade-in-up"
 						>
 							Phase2
 						</Button>
@@ -119,6 +122,7 @@ export default function Roadmap() {
 							_active={{ color: "white", bg: "#f56713" }}
 							_focus={{ outline: "none" }}
 							shadow="md"
+							data-aos="fade-in-up"
 						>
 							Phase3
 						</Button>
@@ -147,6 +151,7 @@ export default function Roadmap() {
 							_active={{ color: "white", bg: "#f56713" }}
 							_focus={{ outline: "none" }}
 							shadow="md"
+							data-aos="fade-in-up"
 						>
 							Phase4
 						</Button>
@@ -183,6 +188,7 @@ export default function Roadmap() {
 						border="1px"
 						p="2"
 						rounded="2xl"
+						data-aos="slide-right"
 					>
 						<Tab
 							rounded="2xl"
@@ -233,7 +239,7 @@ export default function Roadmap() {
 							Phase 4
 						</Tab>
 					</TabList>
-					<TabPanels bg="#f6f9fc" p="5" rounded="2xl">
+					<TabPanels bg="#f6f9fc" p="5" rounded="2xl" data-aos="zoom-in-left">
 						<TabPanel>
 							<p>
 								PHASE 1 Lorem ipsum dolor sit amet consectetur adipisicing elit.

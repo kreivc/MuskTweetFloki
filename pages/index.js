@@ -78,7 +78,14 @@ export default function Home() {
 			<HowToBuy />
 			<Footer />
 
-			<Box pos="fixed" bottom={5} right={5} onClick={scrollTop} opacity="0.8">
+			<Box
+				pos="fixed"
+				bottom={5}
+				right={5}
+				onClick={scrollTop}
+				opacity="0.8"
+				data-aos="fade"
+			>
 				<Button
 					p={{ base: "5", md: "7" }}
 					fontSize={{ base: "2xl", md: "4xl" }}

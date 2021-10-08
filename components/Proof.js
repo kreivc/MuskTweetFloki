@@ -23,7 +23,7 @@ export default function Proof() {
 						align={"center"}
 						justify={"center"}
 					>
-						<Stack spacing={5} w={"full"} maxW={"lg"}>
+						<Stack spacing={5} w={"full"} maxW={"lg"} data-aos="zoom-in-right">
 							<Text color="#f56713" fontWeight="semibold" fontSize="xl">
 								Even Father Tweet Us
 							</Text>
@@ -46,6 +46,7 @@ export default function Proof() {
 							alignItems="center"
 							justifyContent="center"
 							flexGrow="1"
+							data-aos="slide-left"
 						>
 							<Box
 								w="full"

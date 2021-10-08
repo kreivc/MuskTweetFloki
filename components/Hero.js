@@ -27,6 +27,7 @@ export default function Hero() {
 					pos="absolute"
 					top="20"
 					left="5"
+					data-aos="fade-right"
 					// zIndex="1"
 					// transform="rotate(50deg)"
 				/>
@@ -38,6 +39,7 @@ export default function Hero() {
 					pos="absolute"
 					bottom="10"
 					right="20"
+					data-aos="fade-left"
 				/>
 				<Container maxW={"5xl"} py={12} id="tokenomics">
 					<SimpleGrid
@@ -49,10 +51,16 @@ export default function Hero() {
 						mt="10"
 					>
 						<Stack spacing={5} w={{ base: "100%", md: "50%" }}>
-							<Heading color="white" fontSize="6xl">
+							<Heading color="white" fontSize="6xl" data-aos="fade-up">
 								The Birth of $MuskTweetFloki
 							</Heading>
-							<Text color={"#693a32"} fontWeight="semibold" fontSize={"lg"}>
+							<Text
+								color={"#693a32"}
+								fontWeight="semibold"
+								fontSize={"lg"}
+								data-aos="fade-up"
+								data-aos-delay="50"
+							>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Laboriosam aspernatur nihil quasi accusamus quo labore possimus
 								ducimus repellat facilis rem. Ea ex provident, fugiat aliquid
@@ -76,10 +84,12 @@ export default function Hero() {
 								bg="white"
 								_hover={{ bg: "transparent", color: "white" }}
 								fontWeight="semibold"
+								data-aos="fade-left"
+								data-aos-delay="100"
 							>
 								Buy on Pancake Swap
 							</Button>
-							<Flex gridGap="6">
+							<Flex gridGap="6" data-aos="fade-up" data-aos-delay="150">
 								<Button
 									as="p"
 									color="white"
@@ -113,7 +123,13 @@ export default function Hero() {
 									</Button>
 								</CopyToClipboard>
 							</Flex>
-							<Flex flexDir="row" h="100px" gridGap="5" alignItems="center">
+							<Flex
+								flexDir="row"
+								h="100px"
+								gridGap="5"
+								alignItems="center"
+								data-aos="zoom-in"
+							>
 								<Box bg="white" h="100px" w="5px" />
 								<Button
 									bg="white"
@@ -160,6 +176,7 @@ export default function Hero() {
 								// p={{ base: "10", md: "16" }}
 								bg="white"
 								textAlign="center"
+								data-aos="zoom-in"
 							>
 								<Image src="/1.png" alt="flokiright" w="800px" />
 							</Box>

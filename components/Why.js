@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 export default function Why() {
 	return (
 		<Box h="50vh" p={{ base: "10", md: "20" }}>
-			<VStack px={{ base: "0", md: "20" }}>
+			<VStack px={{ base: "0", md: "20" }} data-aos="zoom-in-up">
 				<Text color="#f56713" fontWeight="semibold" fontSize="lg">
 					Why MuskTweetFloki
 				</Text>

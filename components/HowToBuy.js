@@ -22,6 +22,7 @@ export default function HowToBuy() {
 						flexDir="column"
 						alignItems="flex-start"
 						justifyContent="center"
+						data-aos="fade-down-right"
 					>
 						<Heading color="#f56713" fontSize="6xl" fontWeight="extrabold">
 							How to buy?
@@ -60,7 +61,12 @@ export default function HowToBuy() {
 							</Button>
 						</Flex>
 					</Stack>
-					<Box d="flex" alignItems="center" justifyContent="center">
+					<Box
+						d="flex"
+						alignItems="center"
+						justifyContent="center"
+						data-aos="flip-left"
+					>
 						<Image src="/Howtobuy_mockup.png" alt="logo_howto" w="300px" />
 					</Box>
 				</SimpleGrid>

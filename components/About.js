@@ -40,6 +40,7 @@ export default function SplitScreen() {
 				border={"1px solid"}
 				borderColor={"#2b3954"}
 				rounded={"lg"}
+				data-aos="fade-in-up"
 			>
 				<Flex
 					justifyContent={"space-evenly"}
@@ -86,7 +87,7 @@ export default function SplitScreen() {
 					flex={1}
 					align={"center"}
 					justify={"center"}
-					// data-aos="zoom-in-left"
+					data-aos="zoom-in-left"
 				>
 					<Stack spacing={5} w={"full"} maxW={"lg"}>
 						<Text color="#f56713" fontWeight="semibold" fontSize="xl">
@@ -102,21 +103,6 @@ export default function SplitScreen() {
 							services. It is also intended to be used as a reward to the users
 							of the platform.
 						</Text>
-						{/* <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-							<Button
-								as="a"
-								rounded={"lg"}
-								bg="#f56713"
-								color={"white"}
-								_hover={{
-									bg: "#faae60",
-								}}
-								href="https://t.me/Adaconda"
-								target="_blank"
-							>
-								Join Telegram
-							</Button>
-						</Stack> */}
 					</Stack>
 				</Flex>
 				<Flex flex={1}>
@@ -125,8 +111,8 @@ export default function SplitScreen() {
 						h={{ base: "300px", lg: "500px" }}
 						d="flex"
 						alignItems="center"
+						data-aos="slide-right"
 					>
-						{/* <Image src="/Face.png" alt="flokiright" rounded="full" /> */}
 						<Box ref={container} w={{ base: "400px", md: "500px" }} />
 					</Box>
 				</Flex>
